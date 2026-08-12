@@ -1,34 +1,38 @@
-# Kunal Shah - Portfolio
+# Kunal Shah — Portfolio
 
-Personal portfolio website built with HTML, CSS, JavaScript, and React.
+Personal portfolio built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 
-## Sections
+## Stack
 
-1. Hero
-2. About
-3. Skills
-4. Currently Exploring (React)
-5. GitHub Activity
-6. Services
-7. Projects
-8. Contact
+- Next.js 16 — App Router, Server Components, generated OG images
+- TypeScript
+- Tailwind CSS v4
+- `next/font` (self-hosted Fraunces / Inter / JetBrains Mono)
 
-## Run Locally
+## Structure
 
-```bash
-npm install
-npm run dev
+```
+app/            routes, layouts, metadata, OG/Twitter images, favicon
+components/     UI components (server by default, client only where needed)
+data/           content — site, projects, skills
+lib/            utils + shared OG image renderer
+public/images/  screenshots, profile photo, CV, Nepal flag
 ```
 
-Open `http://localhost:5173` in a browser.
-
-## Build for Production
+## Scripts
 
 ```bash
-npm run build
-npm run preview
+npm run dev      # start dev server
+npm run build    # production build
+npm start        # serve production build
+npm run lint     # eslint
 ```
+
+## Content
+
+All projects, links, contact details, skills, and copy come from the original
+portfolio. No metrics or achievements were invented during the redesign.
 
 ## Deploy
 
-Push to `main` on GitHub. Auto deploys to Vercel.
+Auto-deploys to Vercel from `main` (project: `portfolio`).

@@ -26,21 +26,21 @@ export const projects: Project[] = [
     description:
       "A trilingual AI guide covering 50+ Nepali government services, plus K Cha Ta?, a Nepali news engine with AI summaries. Built with Next.js 16 and React 19.",
     technologies: ["Next.js", "React 19", "TypeScript", "Tailwind CSS"],
-    image: "https://sarokarai.vercel.app/opengraph-image",
-    imageAlt: "SarokarAi — Nepal ko kaam, aba sajilo",
-    width: 1200,
-    height: 630,
+    image: "/images/sarokar-home.png",
+    imageAlt: "SarokarAi homepage — AI guidance for Nepali government services",
+    width: 1275,
+    height: 799,
     liveUrl: "https://sarokarai.vercel.app/",
     codeUrl: "https://github.com/kunalshahdev/SarokarAi",
     featured: true,
     detail: {
       intro:
-        "An AI-powered guide for Nepali government processes, documents, and everyday questions — in Nepali, Roman Nepali, or English — plus K Cha Ta?, a live Nepali news engine with AI summaries.",
+        "I kept watching people get stuck on the same things — renewing a passport, figuring out PAN paperwork, not knowing which office to visit or what to carry. The information exists, but it's scattered and rarely in the language people actually speak. So I built SarokarAi: ask in Nepali, Roman Nepali, or English, and get clear step-by-step guidance. Then I added K Cha Ta?, a news engine that pulls from 11 Nepali publishers and summarizes what's trending with AI.",
       features: [
-        "Trilingual AI chat — guidance for PAN, passports, citizenship, licences and more",
-        "K Cha Ta? news — RSS from 11 Nepali publishers with trending stories and AI summaries",
-        "Resilient AI layer — streaming responses with multi-provider failover and abuse protection",
-        "Verified processes — steps, documents, and fees cross-referenced across 12 departments",
+        "Ask in your own words — trilingual AI chat covering 50+ government services, from passports to licences",
+        "K Cha Ta? — live Nepali news with AI summaries, so you catch up in minutes instead of hours",
+        "Answers you can trust — processes cross-checked across 12 departments, with documents and fees spelled out",
+        "Built to stay up — streaming responses with multi-provider failover and abuse protection",
       ],
       builtWith: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Vitest"],
     },
@@ -62,12 +62,12 @@ export const projects: Project[] = [
     featured: true,
     detail: {
       intro:
-        "A clinic appointment booking website — patients browse doctors and services, pick a time, and book; staff manage everything from an admin dashboard.",
+        "This one started as a real client project — a clinic in Kathmandu managing appointments over phone calls and paper. I built them a full booking platform: patients pick a doctor and a time slot online, and the staff runs everything from a dashboard. No more phone tag.",
       features: [
-        "Online booking — services, doctors, and available time slots",
-        "Role-based admin dashboard — owner, receptionist, doctor, and viewer roles",
-        "Double-booking protection — database-level checks on every reservation",
-        "Sample dashboard — explore with fictional data, no login needed",
+        "Book in seconds — patients browse services and doctors, then grab an open time slot",
+        "A dashboard for the whole team — separate views for owners, receptionists, doctors, and viewers",
+        "No double bookings — every reservation is checked at the database level",
+        "Try it yourself — the live demo runs on fictional data, no login needed",
       ],
       builtWith: ["React", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Playwright"],
     },
@@ -88,12 +88,12 @@ export const projects: Project[] = [
     featured: true,
     detail: {
       intro:
-        "A responsive admin dashboard for managing HR operations — employee records, onboarding, and leave all in one place, with analytics to see how things are going.",
+        "I wanted to build the kind of dense, data-heavy dashboard real companies use every day — so I made one for HR teams. Employee records, onboarding, leave requests, and analytics, all in one responsive app.",
       features: [
-        "Employee management — add, edit, and view employee records",
-        "Onboarding tracking — keep an eye on new hires through the process",
-        "Leave management — request, review, and track leave",
-        "Analytics — a dashboard view of what's happening across the team",
+        "Employee records — add, edit, and look up anyone on the team",
+        "Onboarding pipeline — follow new hires from offer letter to day one",
+        "Leave management — requests, approvals, and balances in one view",
+        "Analytics — charts that show what's actually happening across the team",
       ],
       builtWith: ["React 19", "Tailwind CSS", "Vite", "React Router"],
     },
@@ -113,11 +113,11 @@ export const projects: Project[] = [
     featured: true,
     detail: {
       intro:
-        "A full-stack booking system for hotels — manage rooms, take reservations, and keep everything stored in a MySQL database with a PHP backend.",
+        "My first real full-stack project — a hotel booking system with a PHP backend and a MySQL database. It's where I learned how the frontend and backend actually talk to each other: forms, validation, sessions, and relational data.",
       features: [
-        "Room management — create and manage available rooms",
-        "Reservations — book and track bookings end to end",
-        "MySQL-backed data — rooms and reservations stored in a relational database",
+        "Room management — add rooms, set types and availability",
+        "Reservations end to end — book, view, and manage bookings",
+        "Relational data done right — rooms and reservations linked in MySQL",
       ],
       builtWith: ["PHP", "MySQL", "JavaScript"],
     },
@@ -137,11 +137,11 @@ export const projects: Project[] = [
     codeUrl: "https://github.com/kunalshahdev/recipe-finder",
     detail: {
       intro:
-        "A recipe search app powered by the Spoonacular API. Type in what's in your kitchen and get recipes you can actually make with it.",
+        "We've all stared into the fridge wondering what to cook. This app takes whatever ingredients you have and finds recipes you can actually make — live data from the Spoonacular API, with filters for diet and cuisine.",
       features: [
-        "Search by ingredient — find recipes from what you already have",
-        "Filter by diet, cuisine, or ingredient",
-        "Pulls live data from the Spoonacular API",
+        "Cook with what you have — search by the ingredients in your kitchen",
+        "Filter by diet and cuisine — vegetarian, vegan, Italian, whatever you're in the mood for",
+        "Live data — results pulled fresh from the Spoonacular API",
       ],
       builtWith: ["HTML", "CSS", "JavaScript", "Spoonacular API"],
     },
@@ -158,6 +158,17 @@ export const projects: Project[] = [
     width: 1600,
     height: 872,
     codeUrl: "https://github.com/kunalshahdev/kunalshah.dev",
+    detail: {
+      intro:
+        "You're looking at it. I designed and built this site from scratch to present my work the way I want it seen — then rebuilt it in Next.js when I outgrew the first version. Every project gets its own case-study page, like this one.",
+      features: [
+        "Case-study pages — each project gets room to tell its story",
+        "Dark mode — because of course",
+        "Working contact form — messages go straight to my inbox",
+        "Deploys itself — every push to main ships via Vercel",
+      ],
+      builtWith: ["Next.js", "TypeScript", "Tailwind CSS"],
+    },
   },
   {
     slug: "expense-tracker",
@@ -172,6 +183,16 @@ export const projects: Project[] = [
     height: 1040,
     liveUrl: "https://expense-tracker-one-rho-46.vercel.app",
     codeUrl: "https://github.com/kunalshahdev/expense-tracker",
+    detail: {
+      intro:
+        "A money tracker I built to get comfortable with state management and data visualization. Log what you earn and spend, then see exactly where it goes with category breakdowns and charts.",
+      features: [
+        "Quick logging — add income and expenses in seconds",
+        "Category breakdowns — see spending by category at a glance",
+        "Charts — visual summaries of where your money actually goes",
+      ],
+      builtWith: ["HTML", "CSS", "JavaScript"],
+    },
   },
   {
     slug: "task-manager",
@@ -186,6 +207,16 @@ export const projects: Project[] = [
     height: 1040,
     liveUrl: "https://task-manager-ten-ashen.vercel.app",
     codeUrl: "https://github.com/kunalshahdev/task-manager",
+    detail: {
+      intro:
+        "Everyone builds a todo app — I built one to really understand client-side persistence. Everything saves to localStorage, so your list survives refreshes, with zero backend and zero loading spinners.",
+      features: [
+        "The essentials, done well — add, complete, and delete tasks",
+        "Persists in localStorage — your list is still there after a refresh",
+        "No backend — everything runs in the browser",
+      ],
+      builtWith: ["HTML", "CSS", "JavaScript"],
+    },
   },
   {
     slug: "weather-app",
@@ -200,6 +231,16 @@ export const projects: Project[] = [
     height: 818,
     liveUrl: "https://weather-app-blush-nine.vercel.app",
     codeUrl: "https://github.com/kunalshahdev/weather-app",
+    detail: {
+      intro:
+        "A weather app I built to practice working with third-party APIs. Search any city, get live conditions, and watch the interface shift with the weather.",
+      features: [
+        "Live conditions — current weather from a public API",
+        "Search any city — instant results as you type",
+        "Adaptive interface — the design changes with the conditions",
+      ],
+      builtWith: ["HTML", "CSS", "JavaScript", "REST API"],
+    },
   },
 ];
 

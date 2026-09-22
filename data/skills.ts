@@ -10,35 +10,43 @@ export const skillGroups: SkillGroup[] = [
       { name: "HTML" },
       { name: "CSS" },
       { name: "JavaScript" },
-      { name: "PHP" },
-      { name: "MySQL" },
+      {
+        name: "React",
+        note: "Interactive UIs with reusable components and hooks.",
+      },
+      {
+        name: "Next.js",
+        note: "Full-stack React apps — routing, server rendering, API routes.",
+      },
+      {
+        name: "TypeScript",
+        note: "Type-safe JavaScript for bigger projects.",
+      },
+      {
+        name: "Tailwind",
+        note: "Utility-first styling for fast, responsive layouts.",
+      },
       { name: "UI/UX" },
     ],
   },
   {
-    title: "Currently exploring",
+    title: "Also in the toolbox",
     items: [
       {
-        name: "React",
-        note: "Building interactive UIs with reusable components and hooks.",
+        name: "PHP",
+        note: "Full-stack apps with MySQL backends.",
       },
+      { name: "MySQL" },
       {
-        name: "Next.js",
-        note: "A full-stack React framework with routing and server rendering.",
+        name: "Supabase",
+        note: "Postgres backend — auth, database, and storage.",
       },
-      {
-        name: "TypeScript",
-        note: "Type-safe JavaScript. Catches bugs early on bigger projects.",
-      },
-      {
-        name: "Tailwind",
-        note: "A utility-first CSS framework for building layouts faster.",
-      },
+      { name: "PostgreSQL" },
     ],
   },
 ];
 
-export const tools = ["Figma", "Vite", "Git", "React Router"];
+export const tools = ["Figma", "Vite", "Git & GitHub", "React Router", "Supabase", "Playwright"];
 
 export const services = [
   {

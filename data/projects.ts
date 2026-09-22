@@ -20,6 +20,59 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: "sarokarai",
+    title: "SarokarAi",
+    tagline: "Nepal ko kaam, aba sajilo — AI guidance for government services.",
+    description:
+      "A trilingual AI guide covering 50+ Nepali government services, plus K Cha Ta?, a Nepali news engine with AI summaries. Built with Next.js 16 and React 19.",
+    technologies: ["Next.js", "React 19", "TypeScript", "Tailwind CSS"],
+    image: "https://sarokarai.vercel.app/opengraph-image",
+    imageAlt: "SarokarAi — Nepal ko kaam, aba sajilo",
+    width: 1200,
+    height: 630,
+    liveUrl: "https://sarokarai.vercel.app/",
+    codeUrl: "https://github.com/kunalshahdev/SarokarAi",
+    featured: true,
+    detail: {
+      intro:
+        "An AI-powered guide for Nepali government processes, documents, and everyday questions — in Nepali, Roman Nepali, or English — plus K Cha Ta?, a live Nepali news engine with AI summaries.",
+      features: [
+        "Trilingual AI chat — guidance for PAN, passports, citizenship, licences and more",
+        "K Cha Ta? news — RSS from 11 Nepali publishers with trending stories and AI summaries",
+        "Resilient AI layer — streaming responses with multi-provider failover and abuse protection",
+        "Verified processes — steps, documents, and fees cross-referenced across 12 departments",
+      ],
+      builtWith: ["Next.js 16", "React 19", "TypeScript", "Tailwind CSS", "Vitest"],
+    },
+  },
+  {
+    slug: "clinic-booking-platform",
+    title: "Swastha Nepal Clinic",
+    tagline: "Appointment booking with a staff admin dashboard.",
+    description:
+      "A complete clinic appointment booking platform — online booking, a role-based staff dashboard, and patient management. Built with React, TypeScript, and Supabase.",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Supabase"],
+    image:
+      "https://raw.githubusercontent.com/kunalshahdev/clinic-booking-platform/main/public/screenshots/home-desktop.png",
+    imageAlt: "Clinic booking platform home page",
+    width: 1440,
+    height: 900,
+    liveUrl: "https://clinic-booking-platform.vercel.app",
+    codeUrl: "https://github.com/kunalshahdev/clinic-booking-platform",
+    featured: true,
+    detail: {
+      intro:
+        "A clinic appointment booking website — patients browse doctors and services, pick a time, and book; staff manage everything from an admin dashboard.",
+      features: [
+        "Online booking — services, doctors, and available time slots",
+        "Role-based admin dashboard — owner, receptionist, doctor, and viewer roles",
+        "Double-booking protection — database-level checks on every reservation",
+        "Sample dashboard — explore with fictional data, no login needed",
+      ],
+      builtWith: ["React", "TypeScript", "Tailwind CSS", "Supabase", "PostgreSQL", "Playwright"],
+    },
+  },
+  {
     slug: "hr-dashboard",
     title: "HR Dashboard",
     tagline: "Admin dashboard for the daily work of running a team.",
@@ -82,7 +135,6 @@ export const projects: Project[] = [
     height: 936,
     liveUrl: "https://recipe-finder-ashy.vercel.app",
     codeUrl: "https://github.com/kunalshahdev/recipe-finder",
-    featured: true,
     detail: {
       intro:
         "A recipe search app powered by the Spoonacular API. Type in what's in your kitchen and get recipes you can actually make with it.",
@@ -105,7 +157,7 @@ export const projects: Project[] = [
     imageAlt: "Kunal Shah's personal portfolio website",
     width: 1600,
     height: 872,
-    codeUrl: "https://github.com/kunalshahdev/portfolio",
+    codeUrl: "https://github.com/kunalshahdev/kunalshah.dev",
   },
   {
     slug: "expense-tracker",

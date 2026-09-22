@@ -29,14 +29,14 @@ export const site = {
     "I'm Kunal Shah, a web developer and graphic designer from Kathmandu, Nepal. I build websites, apps, and interfaces that are clean, fast, and actually work — two years of building for the web, still learning with every project.",
   stats: [
     { value: "2+", label: "Years building" },
-    { value: "7", label: "Projects built" },
-    { value: "8", label: "Technologies used" },
+    { value: "9", label: "Projects built" },
+    { value: "12+", label: "Technologies used" },
   ],
 } as const;
 
 export const about = [
   "I'm a web developer and graphic designer from Kathmandu, Nepal. I like building things for the web, frontend or backend, whatever it takes to make something that works and looks good.",
-  "I've been at it for about two years, and I'm still learning something new with every project. These days I'm getting into React and enjoying how it changes the way I build interfaces. When I'm not coding, I'm probably designing in Figma or trying out some new tool I found.",
+  "I've been at it for about two years, and I'm still learning something new with every project. These days I'm building full-stack apps with React, Next.js, and TypeScript — including AI-powered projects with real databases and authentication. When I'm not coding, I'm probably designing in Figma or trying out some new tool I found.",
 ];
 
 export const socials = [
